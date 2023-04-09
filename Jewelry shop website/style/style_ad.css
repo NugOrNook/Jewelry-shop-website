@@ -1,0 +1,57 @@
+    nav{
+    text-align:center;
+     }
+    nav a{
+    display: inline-flex;
+    text-align:center;
+    font-size:30px;
+    border-radius:10px;
+    margin:20px;
+    padding:30px;
+    /* padding:20px;
+    margin-left:650px;
+    margin-right:650px; */
+    background:white;
+    color:black;
+    }
+    body{
+        background-color:black;
+    }
+    header{
+        background-color:black;
+        display: flex;
+        justify-content:center;
+        height: 85px;
+        align-items: center;
+        
+    }
+    a:hover{
+
+        background:yellow;
+    }
+    a:link{
+        text-decoration:none;
+    }
+    .T00{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: auto auto auto;
+    grid-gap: 120px;
+    justify-content: center;
+    padding: 100px;
+    background-color:white;
+    margin:100px 100px;
+    border-radius:50px;
+    /* margin-left: 12%; */
+    }
+    .detailpro{
+    justify-content: center;
+    width: 200; 
+    }
+
+    .list{
+    padding: 100px;
+    background-color:white;
+    margin:100px 100px;
+    border-radius:50px;
+    }
